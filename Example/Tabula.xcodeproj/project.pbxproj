@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		27BB392F698FB1ED5C00AF4A /* libPods-Tabula.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C33FA78192638C7C58F4A69F /* libPods-Tabula.a */; };
 		6003F58E195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58F195388D20070C39A /* CoreGraphics.framework */; };
 		6003F592195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
@@ -23,7 +22,8 @@
 		6003F5BA195388D20070C39A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6003F5B8195388D20070C39A /* InfoPlist.strings */; };
 		6003F5BC195388D20070C39A /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5BB195388D20070C39A /* Tests.m */; };
 		6E46CD0B1AAB9272000A74F0 /* ViewControllerTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E46CD0A1AAB9272000A74F0 /* ViewControllerTableViewController.swift */; };
-		BBAE28C843399C75A3EBBC6E /* libPods-Tests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DF4E5D1DFE8C15AA0247F2F9 /* libPods-Tests.a */; };
+		86D3000A22A22D093CADCAFC /* Pods_Tabula.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2F5FCAEFB176A96906A4FA8B /* Pods_Tabula.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		D7C37284EBCB372A57C75741 /* Pods_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2C9C31E3D4C6B4051DAD9275 /* Pods_Tests.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +38,8 @@
 
 /* Begin PBXFileReference section */
 		1A0FBB6B33F9B905393D2000 /* Pods-Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Tests/Pods-Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		2C9C31E3D4C6B4051DAD9275 /* Pods_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2F5FCAEFB176A96906A4FA8B /* Pods_Tabula.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Tabula.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58A195388D20070C39A /* Tabula.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Tabula.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -62,9 +64,7 @@
 		86E0FED9F858825E99E9E822 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		A7564133CE11401FB11076B5 /* Pods-Tabula.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tabula.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Tabula/Pods-Tabula.debug.xcconfig"; sourceTree = "<group>"; };
 		AF68E2246F24795C6CBCEEF6 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
-		C33FA78192638C7C58F4A69F /* libPods-Tabula.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Tabula.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C5E0DE21886BCFE5EED14D06 /* Pods-Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Tests/Pods-Tests.release.xcconfig"; sourceTree = "<group>"; };
-		DF4E5D1DFE8C15AA0247F2F9 /* libPods-Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EDE9766D9F7A58061CD75F7B /* Tabula.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Tabula.podspec; path = ../Tabula.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		F9FE21E4B817823256D7F8B6 /* Pods-Tabula.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tabula.release.xcconfig"; path = "Pods/Target Support Files/Pods-Tabula/Pods-Tabula.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -77,7 +77,7 @@
 				6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */,
 				6003F592195388D20070C39A /* UIKit.framework in Frameworks */,
 				6003F58E195388D20070C39A /* Foundation.framework in Frameworks */,
-				27BB392F698FB1ED5C00AF4A /* libPods-Tabula.a in Frameworks */,
+				86D3000A22A22D093CADCAFC /* Pods_Tabula.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -88,7 +88,7 @@
 				6003F5B0195388D20070C39A /* XCTest.framework in Frameworks */,
 				6003F5B2195388D20070C39A /* UIKit.framework in Frameworks */,
 				6003F5B1195388D20070C39A /* Foundation.framework in Frameworks */,
-				BBAE28C843399C75A3EBBC6E /* libPods-Tests.a in Frameworks */,
+				D7C37284EBCB372A57C75741 /* Pods_Tests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -123,8 +123,8 @@
 				6003F58F195388D20070C39A /* CoreGraphics.framework */,
 				6003F591195388D20070C39A /* UIKit.framework */,
 				6003F5AF195388D20070C39A /* XCTest.framework */,
-				C33FA78192638C7C58F4A69F /* libPods-Tabula.a */,
-				DF4E5D1DFE8C15AA0247F2F9 /* libPods-Tests.a */,
+				2F5FCAEFB176A96906A4FA8B /* Pods_Tabula.framework */,
+				2C9C31E3D4C6B4051DAD9275 /* Pods_Tests.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -207,6 +207,7 @@
 				6003F587195388D20070C39A /* Frameworks */,
 				6003F588195388D20070C39A /* Resources */,
 				8CD03BF8BBC124A841CFDFC3 /* Copy Pods Resources */,
+				405FEBCE3BB074820CA552A2 /* Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -226,6 +227,7 @@
 				6003F5AB195388D20070C39A /* Frameworks */,
 				6003F5AC195388D20070C39A /* Resources */,
 				35BBD4DAD0AEFE254276394E /* Copy Pods Resources */,
+				30E7A2166B5E5606D1BFD7C5 /* Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -294,6 +296,21 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		30E7A2166B5E5606D1BFD7C5 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Tests/Pods-Tests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		35BBD4DAD0AEFE254276394E /* Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -307,6 +324,21 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Tests/Pods-Tests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		405FEBCE3BB074820CA552A2 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Tabula/Pods-Tabula-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		4FE1897EB1FC3C6AC3158A69 /* Check Pods Manifest.lock */ = {
@@ -503,6 +535,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Tabula/Tabula-Prefix.pch";
 				INFOPLIST_FILE = "Tabula/Tabula-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "Tabula/Tabula-Bridging-Header.h";
@@ -521,6 +554,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Tabula/Tabula-Prefix.pch";
 				INFOPLIST_FILE = "Tabula/Tabula-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "Tabula/Tabula-Bridging-Header.h";
