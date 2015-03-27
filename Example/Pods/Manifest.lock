@@ -1,14 +1,19 @@
 PODS:
+  - Bond (3.1.1)
   - Expecta (0.3.2)
+  - ObjectMapper (0.8)
   - PureLayout (2.0.5)
   - Specta (0.3.2)
   - Tabula (0.1.0):
     - Tabula/Core (= 0.1.0)
   - Tabula/Core (0.1.0):
+    - Bond
     - PureLayout
 
 DEPENDENCIES:
+  - Bond (~> 3.0)
   - Expecta
+  - ObjectMapper
   - Specta
   - Tabula (from `../`)
 
@@ -17,9 +22,11 @@ EXTERNAL SOURCES:
     :path: ../
 
 SPEC CHECKSUMS:
+  Bond: fcbffab80820094597b26c95877b6113bc7bd645
   Expecta: ee641011fe10aa1855d487b40e4976dac50ec342
+  ObjectMapper: 12ed834d31e50a2d14229b80507b6b59efabb6ea
   PureLayout: 63a3257320223e8edddcd3afb407445f85a6bf74
   Specta: 698a58ffa5ec948327d3b92eab50ca58d7f4fbe8
-  Tabula: 737830a84215b54d85ecf0a49bc50503be3ab9dc
+  Tabula: 3ae6393eb70ed9c429cb141f1657c0b86fe97ee8
 
 COCOAPODS: 0.36.0.rc.1

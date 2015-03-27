@@ -3,6 +3,8 @@ use_frameworks!
 
 target 'Tabula', :exclusive => true do
   pod "Tabula", :path => "../"
+  pod 'Bond', '~> 3.0'
+  pod 'ObjectMapper'
 end
 
 target 'Tests', :exclusive => true do

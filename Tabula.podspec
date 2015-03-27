@@ -35,6 +35,7 @@ Pod::Spec.new do |s|
         ss.source_files  = 'Pod/Classes/*.swift'
         ss.framework  = 'Foundation'
         ss.dependency 'PureLayout'
+        ss.dependency 'Bond'
     end
 end
 

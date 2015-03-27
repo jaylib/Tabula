@@ -6,6 +6,18 @@
 // project.
 
 
+// Bond
+#define COCOAPODS_POD_AVAILABLE_Bond
+#define COCOAPODS_VERSION_MAJOR_Bond 3
+#define COCOAPODS_VERSION_MINOR_Bond 1
+#define COCOAPODS_VERSION_PATCH_Bond 1
+
+// ObjectMapper
+#define COCOAPODS_POD_AVAILABLE_ObjectMapper
+#define COCOAPODS_VERSION_MAJOR_ObjectMapper 0
+#define COCOAPODS_VERSION_MINOR_ObjectMapper 8
+#define COCOAPODS_VERSION_PATCH_ObjectMapper 0
+
 // PureLayout
 #define COCOAPODS_POD_AVAILABLE_PureLayout
 #define COCOAPODS_VERSION_MAJOR_PureLayout 2

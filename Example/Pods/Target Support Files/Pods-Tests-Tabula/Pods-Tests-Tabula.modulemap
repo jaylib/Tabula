@@ -1,0 +1,6 @@
+framework module Tabula {
+  umbrella header "Pods-Tests-Tabula-umbrella.h"
+
+  export *
+  module * { export * }
+}
